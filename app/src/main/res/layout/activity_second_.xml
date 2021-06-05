@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="6.2"
+        android:background="@color/colorPrimary"
+        android:padding="16dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="E-mail :"
+            android:layout_weight="1"
+            android:textColor="@color/fadeblue"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/em"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:textSize="18sp"
+            android:layout_weight="1"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"/>
+        <TextView
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name :"
+            android:textColor="@color/fadeblue"
+            android:textSize="20sp"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/na"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:textSize="18sp"
+            android:layout_weight="1"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"/>
+        <TextView
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Age :"
+            android:textColor="@color/fadeblue"
+            android:textSize="20sp"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/ph"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:textSize="18sp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>
